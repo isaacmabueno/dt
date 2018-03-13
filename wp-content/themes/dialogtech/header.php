@@ -25,7 +25,7 @@
             <nav class="nav container main-menu">
                 <div class="row">
                     <div class="navbar-header">
-                        <a href="/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2x.png" alt=""></a>
+                        <a href="/"><img class="img-responsive" src="/wp-content/uploads/2018/03/logo-2x.png" alt=""></a>
                     </div>
                     <div class="navbar-right">
                         <?php

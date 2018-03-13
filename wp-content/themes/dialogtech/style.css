@@ -1,0 +1,649 @@
+/*
+Theme Name: DialogTech
+Author: Isaac Bueno
+Author URI: http://www.isaacbueno.com/
+Description: Wordpress Theme for DialogTech
+Version: 1.0
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+a {
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    transition: all ease-in-out .4s;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+.heading-font {
+    font-family: 'Roboto Slab', Georgia, Times, serif;
+    font-weight: 700;
+}
+
+/*////////////////////////////////////////////
+////////////////// MAIN NAV //////////////////
+////////////////////////////////////////////*/
+
+nav {
+    background: #fff;
+    color: #000;
+}
+
+nav .row {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav li a {
+    color: #000;
+}
+
+.img-responsive {
+    width: 50%;
+}
+
+.secondary-nav {
+    background: #006064;
+    border-bottom: 1px solid;
+}
+
+#menu-secondary-menu li a {
+    color: #fff;
+}
+
+.main-menu .row {
+    padding: 10px 0;
+}
+
+.navbar-nav>li>a {
+    line-height: 50px;
+}
+
+#menu-secondary-menu>li>a:hover {
+    background-color: transparent;
+    color: #f47e21;
+}
+
+#menu-main-menu>li>a {
+    line-height: 20px;
+    margin-top: 15px;
+}
+nav a {
+    font-size: 12px;
+    height: 55px !important;
+    line-height: 16px !important;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-menu li {
+    list-style: none !important;
+    text-align: -webkit-left;
+}
+
+.sub-menu li a {
+    text-align: center !important;
+    font-weight: 300 !important;
+}
+
+.main-menu .navbar-right {
+    top: 30px;
+    position: relative;
+}
+
+
+/*////////////////////////////////////////////
+////////////////// HOMEPAGE //////////////////
+////////////////////////////////////////////*/
+
+.fullscreen-video-wrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.purple-banner-callout {
+    background: #710b4e url(/wp-content/uploads/2018/03/bkgd-logo-berry-small.png) repeat center;
+    color: #fff !important;
+    padding: 20px 0;
+    padding: 2rem 0;
+    font-size: 17.5px;
+    font-size: 1.75rem;
+}
+
+.purple-banner-callout a {
+    color: #fff;
+}
+
+.purple-banner-callout a:hover {
+    color: #f47e21;
+    text-decoration: none;
+}
+
+.new-from-dt {
+    background-color: #00acc1;
+}
+
+.new-from-dt p {
+    color: #fff !important;
+    font-size: 2rem;
+    margin: 0 0 3rem;
+}
+
+.new-from-dt h2 {
+    font-family: 'Roboto Slab', Georgia, Times, serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+
+.new-from-dt .row {
+    padding: 12rem 0;
+}
+
+.borders {
+    background-image: url(/wp-content/uploads/2018/03/dt-ai-border-top-2x.png),url(/wp-content/uploads/2018/03/dt-ai-border-bottom-2x.png);
+    background-repeat: repeat-x, repeat-x;
+    background-position: center top, center bottom;
+}
+
+p.new-from {
+    font-size: 1.6rem;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 0 5px 0 !important;
+    color: #fff;
+}
+
+#ai-button {
+    line-height: 1rem;
+}
+
+.dt-Button {
+    color: #fff;
+    background-color: #f37d21;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 42px;
+    margin-bottom: 20px;
+}
+
+.dt-Button:hover {
+    background: #D65E0D;
+    color: #fff;
+    text-decoration: none;
+}
+
+.new-from-dt .col-sm-5 img {
+    width: 100%;
+}
+
+.solve-section {
+    background: #263238 url(/wp-content/uploads/2018/03/bkgd-steel-logo-med.png) no-repeat center;
+}
+
+.solve-section .row {
+    padding: 8rem 0;
+}
+
+.solve-section .white-outline-box {
+    border: 1px rgba(255,255,255,.25) solid;
+    position: relative;
+    margin-top: 40px;
+    margin-top: 4rem;
+}
+
+.vline-25,
+.vline-50,
+.vline-75 {
+    width: 1px;
+    background: rgba(255,255,255,.25);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.vline-75 {
+    left: 75%;
+}
+
+.vline-50 {
+    left: 50%;
+}
+
+.vline-25 {
+    left: 25%;
+}
+
+.solve-section p {
+    margin-top: 10px;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.solve-section .outline-box-item {
+    padding: 40px;
+    padding: 4rem;
+}
+
+.solve-section h3,
+.solve-section h3 a {
+    color: #ffc107 !important;
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.25;
+}
+
+.solve-section a.txtbtn {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.solve-section a.txtbtn:hover {
+    color: #f47e21;
+    text-decoration: none;
+}
+
+#testimonials {
+    background: #e0f2f1 url(/wp-content/uploads/2018/03/bkgd-new-mint.png) no-repeat center;
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+#testimonials .quote-body {
+    color: #710b4e;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 1.25;
+}
+
+#testimonials .quote-attr {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    margin: 2rem 0 0;
+}
+
+#testimonials .quote-title {
+    font-style: italic;
+    margin: 0 0 20px;
+    margin: 0 0 2rem;
+}
+
+.dt-Button {
+    color: #fff;
+    background-color: #f37d21;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    border: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 16px 42px;
+    margin-bottom: 20px;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.ebook-section {
+    background: #263238 url(/wp-content/uploads/2018/03/cts-bkgd-header.png) no-repeat center;
+    text-align: left !important;
+    background-size: cover;
+}
+
+.ebook-section .row {
+    padding: 10rem 0 !important;
+}
+
+.ebook-section h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
+    font-weight: 700;
+    margin: 0 0 1rem !important;
+}
+
+.ebook-section p {
+    margin-top: 1rem;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.ebook-section .mktoHasWidth {
+    width: auto !important;
+}
+
+.lets-talk-section {
+    background-color: #19767d;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .lets-talk-section {
+        max-height: 250px;
+    }
+}
+.lets-talk-section .lets-talk-section-container {
+    padding: 23px 10px;
+}
+@media (min-width: 640px) {
+    .lets-talk-section .lets-talk-section-container {
+        padding: 37px 10px 51px;
+    }
+}
+@media (min-width: 1024px) {
+    .lets-talk-section .lets-talk-section-container {
+        padding: 22px 10px 73px;
+        margin-top: -20px;
+        margin-bottom: -40px;
+    }
+}
+.lets-talk-section .lets-talk-section-container .lets-talk-section-title {
+    font-size: 1.000rem;
+    font-weight: 100;
+}
+@media (min-width: 640px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-title {
+        padding-bottom: 6px;
+    }
+}
+@media (min-width: 1024px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-title {
+        display: inline-block;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 640px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-logos .lets-talk-section-search {
+        margin-right: 0;
+    }
+}
+.lets-talk-section .lets-talk-section-container .lets-talk-section-logos .lets-talk-section-marketingProfs {
+    margin-right: 5px;
+}
+@media (min-width: 640px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-logos .lets-talk-section-marketingProfs {
+        margin: 0 30px;
+    }
+}
+@media (min-width: 1024px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-logos .lets-talk-section-logo {
+        margin: 0 14px;
+    }
+}
+.lets-talk-section .lets-talk-section-container .lets-talk-section-description {
+    font-family: "Roboto Slab", Georgia;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    width: 85%;
+    line-height: 3.5rem;
+    margin: 20px auto;
+    padding: 6px 0 20px;
+}
+@media (min-width: 640px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-description {
+        padding: 0px 0px;
+        width: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-description {
+        font-size: 3rem;
+        padding: 20px 0 0px;
+    }
+}
+.lets-talk-section .lets-talk-section-container .lets-talk-section-number {
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 9px 0 21px;
+    margin-top: 20px;
+}
+.lets-talk-section .lets-talk-section-container .lets-talk-section-number .number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 20px 0px;
+}
+@media (min-width: 640px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-number {
+        display: inline-block;
+        margin-left: 20px;
+    }
+}
+@media (min-width: 1024px) {
+    .lets-talk-section .lets-talk-section-container .lets-talk-section-number {
+        padding-top: 11px;
+    }
+}
+.lets-talk-section .lets-talk-section-container .lets-talk-section-number .number:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.hero-cta-phone {
+	color: #fff;
+}
+.dt-Hero-buttonWrapper {
+    width: 100%;
+    text-align: center;
+}
+@media (min-width: 1024px) {
+    .dt-Hero-buttonWrapper {
+        text-align: left;
+    }
+}
+.lets-talk-button {
+    color: #fff;
+    background-color: #ef6c00;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    height: 40px;
+    line-height: 2.5rem;
+    border: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    margin: 0 0px 10px!important;
+    padding: 15px 20px;
+    -webkit-transition: 200ms;
+    transition: 200ms;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+}
+@media (min-width: 640px) {
+    .lets-talk-button {
+        height: 3.125rem;
+        line-height: 3.125rem;
+        padding: 16px 42px;
+    }
+}
+.lets-talk-button:hover {
+    background-color: #D65E0D;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+a#footer-cta-phone:hover {
+    color: #ef6c00;
+}
+
+.mega-sub-menu li,
+.mega-sub-menu li:last-child {
+    height: 1.8em !important;
+}
+
+.video-container {
+  position: relative;
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.video-container h1 {
+    font-weight: 700;
+    font-family: "Roboto Slab", Georgia;
+    font-size: 4.2rem;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+.video-container p {
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+    padding-bottom: 27px;
+    color: #fff;
+}
+
+#hero-cta-learnMore {
+    width: 200px;
+    margin-left: 10px;
+    background-color: #710b4e !important;
+    display: inline-block;
+    padding: 0;
+}
+
+#hero-cta-learnMore:hover {
+    background-color: #5d0940 !important;
+}
+
+.slick-dots li button:before {
+    font-size: 60px !important;
+    color: rgb(0, 96, 100) !important;
+    opacity: 0.25 !important;
+}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+    opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    color: #ef6c00 !important;
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+@media screen and (max-width: 980px) {
+    div#mega-menu-wrap-main_menu {
+        display: none;
+    }
+
+    .solve-section .white-outline-box {
+        border: none;
+    }
+
+    .vline-25,
+    .vline-50,
+    .vline-75 {
+        width: 0;
+    }
+
+    button#responsive-menu-pro-button  {
+        z-index: 999990 !important;
+        -webkit-clip-path: polygon(30% 0%, 100% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 100%, 0% 30%);
+        clip-path: polygon(30% 0%, 100% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 100%, 0% 30%);
+    }
+
+    div#responsive-menu-pro-title-image img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .img-responsive {
+        width: 30%;
+        margin-left: 10%;
+    }
+}
